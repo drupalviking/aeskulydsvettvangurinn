@@ -4,8 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_image
+    - field.field.node.page.field_skra
+    - image.style.thumbnail
     - node.type.page
   module:
+    - file
+    - image
     - path
     - text
 _core:
@@ -30,6 +35,21 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_image:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_skra:
+    weight: 33
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
   path:
     type: path
     weight: 30

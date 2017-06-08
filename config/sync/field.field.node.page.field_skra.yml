@@ -1,0 +1,27 @@
+uuid: 01a3ef0c-d657-470e-97a0-68b1ee17783e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_skra
+    - node.type.page
+  module:
+    - file
+id: node.page.field_skra
+field_name: field_skra
+entity_type: node
+bundle: page
+label: Skrá
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: 15MB
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
