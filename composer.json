@@ -27,6 +27,7 @@
         "drupal/honeypot": "^1.25",
         "drupal/module_filter": "^3.0",
         "drupal/paragraphs": "^1.1",
+        "drupal/pathauto": "^1.0",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
