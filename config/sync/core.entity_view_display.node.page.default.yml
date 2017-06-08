@@ -6,7 +6,6 @@ dependencies:
     - field.field.node.page.body
     - field.field.node.page.field_image
     - field.field.node.page.field_skra
-    - image.style.320x200
     - node.type.page
   module:
     - file
@@ -31,7 +30,7 @@ content:
     weight: 0
     label: visually_hidden
     settings:
-      image_style: 320x200
+      image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
