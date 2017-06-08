@@ -1,0 +1,18 @@
+uuid: 1a116c09-1737-49a7-b8dd-d1a7428d300d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.starfsfolk
+  module:
+    - user
+id: node.starfsfolk.teaser
+targetEntityType: node
+bundle: starfsfolk
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

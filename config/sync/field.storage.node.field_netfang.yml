@@ -1,0 +1,21 @@
+uuid: 1f75fd88-e1b7-4f43-a2d6-b51218ce93a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_netfang
+field_name: field_netfang
+entity_type: node
+type: string
+settings:
+  max_length: 100
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

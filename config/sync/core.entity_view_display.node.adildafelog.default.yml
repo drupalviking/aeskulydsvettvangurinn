@@ -1,0 +1,37 @@
+uuid: c0ee6387-e436-4d22-850e-e3207eac079f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.adildafelog.body
+    - field.field.node.adildafelog.field_logo
+    - node.type.adildafelog
+  module:
+    - image
+    - text
+    - user
+id: node.adildafelog.default
+targetEntityType: node
+bundle: adildafelog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_logo:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
