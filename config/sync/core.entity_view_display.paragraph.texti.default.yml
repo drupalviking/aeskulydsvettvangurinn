@@ -1,0 +1,22 @@
+uuid: f9d364a0-c5fa-4a98-b343-7037e8f0b573
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texti.field_texti
+    - paragraphs.paragraphs_type.texti
+  module:
+    - text
+id: paragraph.texti.default
+targetEntityType: paragraph
+bundle: texti
+mode: default
+content:
+  field_texti:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

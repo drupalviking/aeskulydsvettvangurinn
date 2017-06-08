@@ -1,0 +1,7 @@
+uuid: f6a86c6e-56e1-49fb-a6cd-015d7c346b87
+langcode: en
+status: true
+dependencies: {  }
+id: texti_og_mynd
+label: 'Texti og mynd'
+behavior_plugins: {  }

@@ -1,0 +1,37 @@
+uuid: 144d1557-4feb-4d32-b3af-1b5d19494cd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texti_og_mynd.field_mynd
+    - field.field.paragraph.texti_og_mynd.field_texti
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.texti_og_mynd
+  module:
+    - image
+    - text
+id: paragraph.texti_og_mynd.default
+targetEntityType: paragraph
+bundle: texti_og_mynd
+mode: default
+content:
+  field_mynd:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_texti:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

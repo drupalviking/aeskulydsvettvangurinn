@@ -1,0 +1,26 @@
+uuid: 8a6016a6-d1d9-4b28-aa68-aa3e69c4aac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texti.field_texti
+    - paragraphs.paragraphs_type.texti
+  module:
+    - text
+id: paragraph.texti.default
+targetEntityType: paragraph
+bundle: texti
+mode: default
+content:
+  field_texti:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

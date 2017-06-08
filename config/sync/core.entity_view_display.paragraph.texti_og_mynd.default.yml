@@ -1,0 +1,33 @@
+uuid: ea62eca1-39a2-4f6b-893f-6b0e0acb606b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texti_og_mynd.field_mynd
+    - field.field.paragraph.texti_og_mynd.field_texti
+    - paragraphs.paragraphs_type.texti_og_mynd
+  module:
+    - image
+    - text
+id: paragraph.texti_og_mynd.default
+targetEntityType: paragraph
+bundle: texti_og_mynd
+mode: default
+content:
+  field_mynd:
+    weight: 0
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_texti:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 57b38954-f52a-40c4-ac16-e726f578a56e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texti
+    - paragraphs.paragraphs_type.texti
+  module:
+    - text
+id: paragraph.texti.field_texti
+field_name: field_texti
+entity_type: paragraph
+bundle: texti
+label: Texti
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

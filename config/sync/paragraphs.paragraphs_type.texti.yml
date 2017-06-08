@@ -1,0 +1,7 @@
+uuid: de299cfa-5ab8-4f44-8063-a3fc595be022
+langcode: en
+status: true
+dependencies: {  }
+id: texti
+label: Texti
+behavior_plugins: {  }
