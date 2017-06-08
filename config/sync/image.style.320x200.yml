@@ -1,0 +1,14 @@
+uuid: 294842fa-16cf-4cfc-af14-3d409f7c09f6
+langcode: en
+status: true
+dependencies: {  }
+name: 320x200
+label: 320x200
+effects:
+  07673ba1-da65-4bbe-9ae9-fd47d1ea09e5:
+    uuid: 07673ba1-da65-4bbe-9ae9-fd47d1ea09e5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 200
