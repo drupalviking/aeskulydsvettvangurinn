@@ -1,0 +1,22 @@
+uuid: dc94b98c-dd9a-40b8-879e-b6c075b3cf5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: adildafelog
+label: Aðildafélög
+type: 'canonical_entities:node'
+pattern: 'adildafelog/[node:title]'
+selection_criteria:
+  cfc614a5-bdd8-461c-95f3-c63a30ba1bb5:
+    id: node_type
+    bundles:
+      adildafelog: adildafelog
+    negate: false
+    context_mapping:
+      node: node
+    uuid: cfc614a5-bdd8-461c-95f3-c63a30ba1bb5
+selection_logic: and
+weight: -5
+relationships: {  }

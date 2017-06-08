@@ -1,0 +1,22 @@
+uuid: 61727c32-9365-4e7c-97d0-54c4a4a783bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: frettir
+label: Fréttir
+type: 'canonical_entities:node'
+pattern: 'frettir/[node:title]'
+selection_criteria:
+  97fda48f-eacc-4ff8-9f25-dd3445d6ce5b:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 97fda48f-eacc-4ff8-9f25-dd3445d6ce5b
+selection_logic: and
+weight: -5
+relationships: {  }

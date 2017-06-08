@@ -1,0 +1,22 @@
+uuid: 307b683a-0cbf-450f-976b-225c820db48e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: starfsfolk
+label: Starfsfólk
+type: 'canonical_entities:node'
+pattern: 'starfsfolk/[node:title]'
+selection_criteria:
+  089910c5-54d9-459c-94be-e38dee9eb5e5:
+    id: node_type
+    bundles:
+      starfsfolk: starfsfolk
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 089910c5-54d9-459c-94be-e38dee9eb5e5
+selection_logic: and
+weight: -5
+relationships: {  }

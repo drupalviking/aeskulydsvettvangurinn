@@ -15,4 +15,8 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_flokkun: true
+  field_image: true
+  field_netfang: true
+  field_simi: true
