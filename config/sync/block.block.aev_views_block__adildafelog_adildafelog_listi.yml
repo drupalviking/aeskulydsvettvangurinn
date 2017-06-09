@@ -1,0 +1,30 @@
+uuid: 765467a5-dd01-41f4-aa0b-4459722b679a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.adildafelog
+  module:
+    - system
+    - views
+  theme:
+    - aev
+id: aev_views_block__adildafelog_adildafelog_listi
+theme: aev
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:adildafelog-adildafelog_listi'
+settings:
+  id: 'views_block:adildafelog-adildafelog_listi'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

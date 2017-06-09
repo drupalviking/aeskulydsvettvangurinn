@@ -1,0 +1,22 @@
+uuid: b481269f-daf2-490a-830b-35b83ffe7884
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aev
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: aev_powered
+theme: aev
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

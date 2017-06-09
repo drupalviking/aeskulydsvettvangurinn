@@ -1,0 +1,30 @@
+uuid: 6a3063ca-8555-42c3-93c1-38c20cc370db
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.adildafelog
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__adildafelog_adildafelog_listi
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:adildafelog-adildafelog_listi'
+settings:
+  id: 'views_block:adildafelog-adildafelog_listi'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
