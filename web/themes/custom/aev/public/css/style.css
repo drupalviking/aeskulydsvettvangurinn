@@ -9499,6 +9499,12 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
   width: 240px;
 }
 
+/* line 2, ../../scss/component/_block.scss */
+.view-adildafelog li {
+  width: 25%;
+  float: left;
+}
+
 /**
  * jQuery UI autocomplete widget style overrides.
  *
