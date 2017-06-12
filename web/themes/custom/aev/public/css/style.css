@@ -9500,9 +9500,16 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
 }
 
 /* line 2, ../../scss/component/_block.scss */
+.view-adildafelog ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 7, ../../scss/component/_block.scss */
 .view-adildafelog li {
   width: 25%;
   float: left;
+  padding: 10px;
+  text-align: center;
 }
 
 /**
