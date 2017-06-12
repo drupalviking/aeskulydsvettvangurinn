@@ -9509,7 +9509,10 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
   width: 25%;
   float: left;
   padding: 10px;
-  text-align: center;
+}
+/* line 13, ../../scss/component/_block.scss */
+.view-adildafelog img {
+  margin: auto;
 }
 
 /**
