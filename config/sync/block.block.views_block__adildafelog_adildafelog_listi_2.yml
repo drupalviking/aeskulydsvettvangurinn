@@ -1,4 +1,4 @@
-uuid: 765467a5-dd01-41f4-aa0b-4459722b679a
+uuid: 56e6166c-3d5d-48d4-b031-d245cd7e57e2
 langcode: en
 status: true
 dependencies:
@@ -8,11 +8,11 @@ dependencies:
     - system
     - views
   theme:
-    - aev
-id: aev_views_block__adildafelog_adildafelog_listi
-theme: aev
+    - bootstrap
+id: views_block__adildafelog_adildafelog_listi_2
+theme: bootstrap
 region: content
-weight: -7
+weight: 0
 provider: null
 plugin: 'views_block:adildafelog-adildafelog_listi'
 settings:

@@ -8,8 +8,8 @@ _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: aev_local_actions
 theme: aev
-region: content
-weight: -20
+region: header
+weight: -6
 provider: null
 plugin: local_actions_block
 settings:
