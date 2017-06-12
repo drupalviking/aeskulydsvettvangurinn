@@ -3,7 +3,7 @@ type: theme
 base theme: bootstrap
 
 name: 'Æskulyðsvettvangurinn'
-description: 'Bootstrap þema fyrir Æskulýðsvettvanginn.'
+description: 'Bootstrap þema fyrir Æskulýðsvettvanginn v1.0.'
 package: 'Bootstrap'
 
 regions:
@@ -20,5 +20,5 @@ regions:
   page_bottom: 'Page bottom'
 
 libraries:
-  - 'aev/global-styling'
-  - 'aev/bootstrap-scripts'
+  - aev/global-styling
+  - aev/bootstrap-scripts
