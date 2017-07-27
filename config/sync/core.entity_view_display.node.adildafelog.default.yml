@@ -24,7 +24,7 @@ content:
     region: content
   field_logo:
     weight: 102
-    label: visually_hidden
+    label: above
     settings:
       image_style: ''
       image_link: ''

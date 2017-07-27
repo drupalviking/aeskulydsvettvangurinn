@@ -1,0 +1,22 @@
+uuid: dde464cc-cc99-4c31-bfa0-72a51d022194
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: almennar_sidur
+label: 'Almennar síður'
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parents:join-path]/[node:menu-link]/'
+selection_criteria:
+  8d911dc1-e9fa-465f-9061-1bbd8e23425d:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8d911dc1-e9fa-465f-9061-1bbd8e23425d
+selection_logic: and
+weight: -5
+relationships: {  }
